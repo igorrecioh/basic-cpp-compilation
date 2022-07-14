@@ -26,8 +26,10 @@ sh compile.sh
 - [ ] Incluir en todos los ejemplos estructura coherente de proyecto (src, build, include, tests...)
 - [ ] Incluir diagrama explicando brevemente el flujo de compilación completo
 - [ ] Completar y mejorar .gitignore
+- [ ] Añadir linter
 ## Referencias
 
 - https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
 - https://access.redhat.com/documentation/es-es/red_hat_enterprise_linux/8/html/developing_c_and_cpp_applications_in_rhel_8/the-soname-mechanism_creating-libraries-with-gcc
 - https://www.youtube.com/watch?v=NEBRJth_NXE&list=PLgnQpQtFTOGRv7VS6fYerEbT4ckBovKur
+- @
