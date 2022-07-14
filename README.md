@@ -12,13 +12,13 @@ sh compile.sh
 
 ## Índice
 
-- [Compilación de un fichero fuente paso a paso](/basic-cpp-compilation/compilacion_pasos/README.md)
-- [Compilación de un módulo usado en main](/basic-cpp-compilation/compilacion_modulo/README.md)
-- [Compilación de un módulo usado en main con Makefile](/basic-cpp-compilation/compilacion_modulo_makefile/README.md)
-- [Compilación de un módulo usado en main con CMake](/basic-cpp-compilation/compilacion_modulo_cmake/README.md)
-- [Compilación de varios módulos usados en main con CMake y tests](/basic-cpp-compilation/modulos_cmake_testing/README.md)
-- [Creación de una librería estática](/basic-cpp-compilation/lib_estatica/README.md)
-- [Creación de una librería dinámica](/basic-cpp-compilation/lib_dinamica/README.md)
+- [Compilación de un fichero fuente paso a paso](/compilacion_pasos/README.md)
+- [Compilación de un módulo usado en main](/compilacion_modulo/README.md)
+- [Compilación de un módulo usado en main con Makefile](/compilacion_modulo_makefile/README.md)
+- [Compilación de un módulo usado en main con CMake](/compilacion_modulo_cmake/README.md)
+- [Compilación de varios módulos usados en main con CMake y tests](/modulos_cmake_testing/README.md)
+- [Creación de una librería estática](/lib_estatica/README.md)
+- [Creación de una librería dinámica](/lib_dinamica/README.md)
 
 ## WIP
 - [ ] Creación de ejemplo para librería dinámica con soname
