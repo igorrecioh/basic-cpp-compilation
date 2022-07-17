@@ -26,6 +26,9 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
+      - name: Add permissions
+        working-directory: ./compilacion_pasos
+        run: chmod +x compile.sh
       - name: Run script
         working-directory: ./compilacion_pasos
         run: sh compile.sh
