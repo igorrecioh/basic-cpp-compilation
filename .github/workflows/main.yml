@@ -49,4 +49,4 @@ jobs:
         run: chmod +x main
       - name: Run script6
         working-directory: ./compilacion_pasos
-        run: ls && pwd && main
+        run: ls && pwd && ./main
