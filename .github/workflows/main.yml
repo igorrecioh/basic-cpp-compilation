@@ -33,3 +33,7 @@ jobs:
       - name: Run script for 'Compilacion modulo'
         working-directory: ./compilacion_modulo
         run: sh compile.sh
+
+      - name: Run script for 'Compilacion modulo Makefile'
+        working-directory: ./compilacion_modulo_makefile
+        run: sh compile.sh
