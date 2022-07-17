@@ -29,24 +29,24 @@ jobs:
       #- name: Add permissions
       #  working-directory: ./compilacion_pasos
       #  run: chmod +x compile.sh
-      #- name: Run script
+      - name: Run script
+        working-directory: ./compilacion_pasos
+        run: sh compile.sh
+      #- name: Run script1
       #  working-directory: ./compilacion_pasos
-      #  run: sh compile.sh
-      - name: Run script1
-        working-directory: ./compilacion_pasos
-        run: g++ -E main.cpp > main.i
-      - name: Run script2
-        working-directory: ./compilacion_pasos
-        run: g++ -S main.i > main.s
-      - name: Run script3
-        working-directory: ./compilacion_pasos
-        run: g++ -c main.s > main.o
-      - name: Run script4
-        working-directory: ./compilacion_pasos
-        run: g++ main.o -o main
-      - name: Run script5
-        working-directory: ./compilacion_pasos
-        run: chmod +x main
-      - name: Run script6
-        working-directory: ./compilacion_pasos
-        run: ls && pwd && ./main
+      #  run: g++ -E main.cpp > main.i
+      #- name: Run script2
+      #  working-directory: ./compilacion_pasos
+      #  run: g++ -S main.i > main.s
+      #- name: Run script3
+      #  working-directory: ./compilacion_pasos
+      #  run: g++ -c main.s > main.o
+      #- name: Run script4
+      #  working-directory: ./compilacion_pasos
+      #  run: g++ main.o -o main
+      #- name: Run script5
+      #  working-directory: ./compilacion_pasos
+      #  run: chmod +x main
+      #- name: Run script6
+      #  working-directory: ./compilacion_pasos
+      #  run: ls && pwd && ./main
