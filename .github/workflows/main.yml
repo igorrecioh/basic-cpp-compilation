@@ -46,4 +46,7 @@ jobs:
         run: g++ main.o -o main
       - name: Run script5
         working-directory: ./compilacion_pasos
+        run: chmod +x main
+      - name: Run script6
+        working-directory: ./compilacion_pasos
         run: ./main
