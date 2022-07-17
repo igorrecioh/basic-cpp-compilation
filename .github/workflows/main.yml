@@ -33,6 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Compilacion por pasos,
-          cd compilacion_pasos
-          mkdir build
-          g++ -E main.cpp > build/main.i
+          sh compile.sh
