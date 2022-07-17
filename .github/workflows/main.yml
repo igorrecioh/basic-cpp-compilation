@@ -26,6 +26,10 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run script
+      - name: Run script for 'Compilacion paso a paso'
         working-directory: ./compilacion_pasos
+        run: sh compile.sh
+      
+      - name: Run script for 'Compilacion modulo'
+        working-directory: ./compilacion_modulo
         run: sh compile.sh
