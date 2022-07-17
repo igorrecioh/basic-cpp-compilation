@@ -27,4 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run script
-        run: cd compilacion_pasos/ && sh compile.sh
+        run: |
+          cd compilacion_pasos/
+          sh compile.sh
