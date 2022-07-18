@@ -1,5 +1,3 @@
-rm *.so *.o mainejecutable
-
 g++ -c main.cpp -o main.o
 
 g++ -c -fPIC foo.cpp -o foo.o

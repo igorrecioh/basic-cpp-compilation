@@ -41,3 +41,11 @@ jobs:
       - name: Run script for 'Compilacion modulo CMake'
         working-directory: ./compilacion_modulo_cmake
         run: sh compile.sh
+
+      - name: Run script for 'Libreria estatica'
+        working-directory: ./lib_estatica
+        run: sh compile.sh
+      
+      - name: Run script for 'Libreria dinamica'
+        working-directory: ./lib_dinamica
+        run: sh compile.sh

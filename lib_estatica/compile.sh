@@ -1,5 +1,3 @@
-rm *.a *.o mainejecutable
-
 g++ -c main.cpp -o main.o
 
 g++ -c foo.cpp -o foo.o
