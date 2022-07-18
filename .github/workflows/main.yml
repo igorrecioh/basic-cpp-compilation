@@ -49,3 +49,7 @@ jobs:
       - name: Run script for 'Libreria dinamica'
         working-directory: ./lib_dinamica
         run: sh compile.sh
+
+      - name: Run script for 'Compilacion modulos CMake con tests'
+        working-directory: ./modulos_cmake_testing
+        run: sh compile.sh
