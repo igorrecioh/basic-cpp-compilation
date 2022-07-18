@@ -29,6 +29,9 @@ jobs:
       - name: Install GTest
         run: sudo apt install libgtest-dev
 
+      - name: Install Google-Mock
+        run: sudo apt install google-mock
+
       - name: Run script for 'Compilacion paso a paso'
         working-directory: ./compilacion_pasos
         run: sh compile.sh
