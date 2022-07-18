@@ -22,10 +22,10 @@ sh compile.sh
 
 ## WIP
 - [ ] Creación de ejemplo para librería dinámica con soname
-- [ ] Mejorar ejemplos testing
+- [X] Mejorar ejemplos testing
 - [ ] Incluir en todos los ejemplos estructura coherente de proyecto (src, build, include, tests...)
 - [ ] Incluir diagrama explicando brevemente el flujo de compilación completo
-- [ ] Completar y mejorar .gitignore
+- [X] Completar y mejorar .gitignore
 - [ ] Añadir linter
 ## Referencias
 
