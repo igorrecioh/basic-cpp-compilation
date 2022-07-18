@@ -1,8 +1,14 @@
 #include <gtest/gtest.h>
+#include "matematicas.hpp"
 
-TEST(Ejemplos, Ejemplo1)
+TEST(Suma, SumaPos)
 {
-    ASSERT_EQ(1, 1);
+    ASSERT_EQ(1, suma(1, 0));
+}
+
+TEST(Resta, RestaPos)
+{
+    ASSERT_EQ(1, resta(7, 6));
 }
 
 
