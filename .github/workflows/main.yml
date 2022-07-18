@@ -27,8 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install GTest
-        run: apt install libgtest-dev
-        
+        run: sudo apt install libgtest-dev
+
       - name: Run script for 'Compilacion paso a paso'
         working-directory: ./compilacion_pasos
         run: sh compile.sh
