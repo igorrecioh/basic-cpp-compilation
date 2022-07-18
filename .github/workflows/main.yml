@@ -37,7 +37,7 @@ jobs:
           ls -lah
           sudo cp -a googletest/include/gtest /usr/include
           sudo cp -a lib/libgtest_main.so lib/libgtest.so /usr/lib/
-          make install
+          sudo make install
           sudo ldconfig -v | grep gtest
 
       - name: Run script for 'Compilacion paso a paso'
