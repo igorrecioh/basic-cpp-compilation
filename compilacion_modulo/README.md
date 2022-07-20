@@ -1,6 +1,5 @@
-# Creación de un ejecutable en C++ por pasos
+# Creación de un ejecutable en C++ con dependencia de un módulo
 
-- Con librería
 ```bash
 # Creación del fichero objeto (.o) para el módulo 'matematicas'
 # Flag -c --> Solamente compila y ensambla
