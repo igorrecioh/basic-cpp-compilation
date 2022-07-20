@@ -19,6 +19,7 @@ sh compile.sh
 - [Compilación de varios módulos usados en main con CMake y tests](/modulos_cmake_testing/README.md)
 - [Creación de una librería estática](/lib_estatica/README.md)
 - [Creación de una librería dinámica](/lib_dinamica/README.md)
+- [Creación de una librería dinámica con SONAME](/lib_dinamica_soname/README.md)
 
 ## WIP
 - [ ] Creación de ejemplo para librería dinámica con soname
