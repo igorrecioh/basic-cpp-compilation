@@ -10,6 +10,8 @@ En todos los ejemplos proporcionados, se incluye un fichero README en el que se 
 sh compile.sh
 ```
 
+Este script es el mismo que ejecuta el CI en Github Actions para verificar que lo subido funciona correctamente.
+
 ## Índice
 
 - [Compilación de un fichero fuente paso a paso](/compilacion_pasos/README.md)
@@ -22,11 +24,11 @@ sh compile.sh
 - [Creación de una librería dinámica con SONAME](/lib_dinamica_soname/README.md)
 
 ## WIP
-- [ ] Creación de ejemplo para librería dinámica con soname
+- [X] Creación de ejemplo para librería dinámica con soname
 - [X] Mejorar ejemplos testing
+- [X] Completar y mejorar .gitignore
 - [ ] Incluir en todos los ejemplos estructura coherente de proyecto (src, build, include, tests...)
 - [ ] Incluir diagrama explicando brevemente el flujo de compilación completo
-- [X] Completar y mejorar .gitignore
 - [ ] Añadir linter
 ## Referencias
 
