@@ -38,4 +38,7 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 
 # Ejecución del programa
 ./mainejecutable
+
+# Podemos observar el SONAME de la librería simplemente ejecutando
+objdump -p libfoobar.so | grep SONAME
 ```
