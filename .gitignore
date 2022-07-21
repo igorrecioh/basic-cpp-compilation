@@ -4,6 +4,6 @@
 *.i
 *.o
 *.s
-*.so
+*.so*
 *.a
 build/
