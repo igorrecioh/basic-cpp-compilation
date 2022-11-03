@@ -35,6 +35,9 @@ Este script es el mismo que ejecuta el CI en Github Actions para verificar que l
 - https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
 - https://access.redhat.com/documentation/es-es/red_hat_enterprise_linux/8/html/developing_c_and_cpp_applications_in_rhel_8/the-soname-mechanism_creating-libraries-with-gcc
 - https://www.youtube.com/watch?v=NEBRJth_NXE&list=PLgnQpQtFTOGRv7VS6fYerEbT4ckBovKur
+- https://www.tenouk.com/ModuleW.html
+- https://en.cppreference.com/w/cpp/preprocessor
+- https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation
 
 ## Agradecimientos
 - [@stachnis](https://github.com/stachnis)
