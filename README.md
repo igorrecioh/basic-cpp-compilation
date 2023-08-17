@@ -7,7 +7,11 @@ El objetivo de este repo es proporcionar ejemplos sencillos para comprender los 
 En todos los ejemplos proporcionados, se incluye un fichero README en el que se explican los pasos a seguir para la compilación. Además, cada ejemplo contiene un script de bash para ejecutar los comandos de forma automática ejecutando:
 
 ```bash
-sh compile.sh
+# Damos permisos de ejecución
+chmod +x compile.sh
+
+# Ejecutamos el script
+./compile.sh
 ```
 
 Este script es el mismo que ejecuta el CI en Github Actions para verificar que lo subido funciona correctamente.
