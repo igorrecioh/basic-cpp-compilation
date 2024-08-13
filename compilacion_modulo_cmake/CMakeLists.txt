@@ -7,13 +7,13 @@ project(basic-cpp-compilation
     LANGUAGES CXX)
 
 # Crea librería 'matematicas' a partir de su .cpp y .hpp
-add_library(matematicas matematicas.cpp matematicas.hpp)
+add_library(matematicas src/matematicas.cpp include/matematicas.hpp)
 
 # Incluye el directorio raiz del proyecto para buscar ficheros include
-target_include_directories(matematicas PUBLIC ${CMAKE_SOURCE_DIR})
+target_include_directories(matematicas PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
 # Añade el ejecutable denominado 'ejecutable' a partir de main.cpp
-add_executable(ejecutable main.cpp)
+add_executable(ejecutable src/main.cpp)
 
 # Enlaza la librería 'matematicas' al ejecutable
 target_link_libraries(ejecutable PRIVATE matematicas)
